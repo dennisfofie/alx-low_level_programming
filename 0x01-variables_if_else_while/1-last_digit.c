@@ -4,6 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/* main the entry point of the program */
 	int main(void)
 {
 	/* initializing a variables n and lastname */
@@ -17,7 +18,7 @@
 		/* declaring a if statement */
 		if (lastname > 5)
 		{
-			printf("Last digit of %d is %d and is greather than 5\n", n, lastname);
+			printf("Last digit of %d is %d and is greater than 5\n", n, lastname);
 		}
 		else if (lastname == 0)
 		{
