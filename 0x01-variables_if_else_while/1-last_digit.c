@@ -11,15 +11,15 @@
 		int lastname;
 
 		srand(time(0));
-		n = rand - RAND_MAX / 2;
+		n = rand() - RAND_MAX / 2;
 		/* your code goes there */
 		lastname = n % 10;
 		/* declaring a if statement */
-		if (n > 5)
+		if (lastname > 5)
 		{
 			printf("Last digit of %d is %d and is greather than 5\n", n, lastname);
 		}
-		if else(n == 0)
+		else if (lastname == 0)
 		{
 			printf("Last digit of %d is %d and is 0\n", n, lastname);
 		}
