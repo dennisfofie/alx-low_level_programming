@@ -15,7 +15,6 @@
 			continue;
 		}	
 		putchar(a);
-		putchar('\n');
 		/* returning sucess values of char a */
 	}
 	return (0);
