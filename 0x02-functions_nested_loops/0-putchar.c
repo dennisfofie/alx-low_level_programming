@@ -1,9 +1,12 @@
 #include "main.h"
 /**
- * prototype of the function _putchar is in the main.h header file
- * main - prints _putchar to std output followed by newline
- * REturn: alwats 0
- * printing to the std output using _putchar
+ * 
+ * _putchar - write character c to stdout
+ *
+ * @c:The character to print
+ *
+ * Return: on sucess 1.
+ * on error -1 is returned ande errmo is set appropriately.
  * */
 int main(void)
 {	

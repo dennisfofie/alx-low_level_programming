@@ -2,9 +2,11 @@
 
 /**
  *
- * int _islower(int c) = prints the lowercase of a int
+ * _islower - main function
+ * 
+ * @c: character to compare
  *
- * Return: always 1 if c is lower otherwise 0.
+ * Return: 1 if true, 0 if false
  *
  */
 
