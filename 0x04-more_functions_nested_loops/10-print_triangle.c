@@ -14,7 +14,7 @@ void print_triangle(int size)
 	int j;
 	int k;
 	
-	if (size <= o)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	}else
