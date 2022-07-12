@@ -1,20 +1,21 @@
 #include "main.h"
 #include <string.h>
+
 /**
- * _puts - prints string to stdout
+ * _puts - puts string to stdout
  *
- * @str: a pointer parameter
+ * @str: the strings to be output
  */
 void _puts(char *str)
 {
-	 int j;
+	int n, s;
 
-	 j = *str;
+	s = *str;
+	n = strlen(s);
 
-	 for (j = 0; j <= '\0'; j++)
-	 {
-		 _putchar(j);
-	 }
+	for (; n <= n - 1; n < '\0'; n++)
+	{
+		_putchar(n);
+	}
 	_putchar('\n');
 }
-
