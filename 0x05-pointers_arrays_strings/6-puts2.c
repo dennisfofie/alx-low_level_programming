@@ -15,7 +15,7 @@ void puts2(char *str)
 		len++;
 		ptr++;
 	}
-	for (j = 0; j < = (len - 1); j++)
+	for (j = 0; j <= (len - 1); j++)
 	{
 		if (j % 2 == 0)
 			_putchar(str[j]);

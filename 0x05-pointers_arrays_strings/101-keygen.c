@@ -10,9 +10,8 @@
 int main(void)
 {
 	int i, j, k, s;
-	char[] = "0123456789ABCDEFGHIJKLMNOPRSTUVWXYZabcdefghijklmnopqrstuvwxy";
-
-	char p{58};
+	char c[] = "0123456789ABCDEFGHIJKLMNOPRSTUVWXYZabcdefghijklmnopqrstuvwxy";
+	char p[58];
 
 	srand(time(NULL));
 
@@ -23,14 +22,14 @@ int main(void)
 		{
 			j = rand() % 62;
 			p[i] = c[j];
-			s += c[j]'
-				i++;
+			s += c[j];
+			i++;
 		}
 		while (c[k])
 		{
 			if (c[k] == (2772 - s))
 			{
-			p{i} = c[k];
+			p[i] = c[k];
 			s += c[k];
 			i++;
 			break;

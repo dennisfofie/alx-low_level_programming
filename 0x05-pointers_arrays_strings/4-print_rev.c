@@ -6,7 +6,7 @@
  * Description: return the required result
  * Return: return void
  */
-void print_rev(char *a)
+void print_rev(char *s)
 {
 	int lenght;
 
@@ -19,5 +19,6 @@ void print_rev(char *a)
 		{
 			_putchar(s[lenght]);
 		}
+	}
 	_putchar('\n');
 }
