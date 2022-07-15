@@ -17,7 +17,7 @@ char *rot13(char *x)
 	{
 		for (k = 0; encode[k] != '\0'; k++)
 		{
-			if ((x[i] == encode[k]))
+			if (x[i] == encode[k])
 			{
 				x[i] = encode1[k];
 				break;
