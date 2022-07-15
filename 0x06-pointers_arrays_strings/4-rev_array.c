@@ -1,26 +1,19 @@
 #include "main.h"
-
 /**
- * reverse_array - reverses an array
- * @a: first argument
- * @n: second argument
- */
-void reverde_array(int *a, int n)
+ *  * reverse_array - reverses an array
+ *   *
+ *    * @a: array to reverse
+ *     * @n: size of array
+ *      */
+void reverse_array(int *a, int n)
 {
-	int i = 0, k, aux;
-	int *p;
+		int i;
+			int t;
 
-	p = a;
-
-	while (a[i] < n)
-	{
-		p++;
-	}
-	for (k = 0; k < n / 2; k++)
-	{
-		a[k] = aux;
-		aux = *p;
-		p--;
-	}
-	a++;
+				for (i = 0; i < n / 2; i++)
+						{
+									t = a[i];
+											a[i] = a[n - i - 1];
+													a[n - i - 1] = t;
+														}
 }
