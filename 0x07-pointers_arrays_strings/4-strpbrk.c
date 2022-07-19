@@ -11,6 +11,7 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	len = strpbrk(s, accept);
+	char *len = strpbrk(s, accept);
+
 	return (len);
 }
