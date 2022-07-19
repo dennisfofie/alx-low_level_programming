@@ -11,7 +11,7 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int len = strstr(haystack, needle);
+	char *len = strstr(haystack, needle);
 
 	return (len);
 }
