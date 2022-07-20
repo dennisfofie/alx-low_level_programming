@@ -7,11 +7,14 @@
  *
  * Return: prime number
  */
-int is_prime_number(int n)\
+int is_prime_number(int n)
 {
-	if ( n > 0 && n / n == 1 && n / 1 == n)
+	if (n > 0 && n / n == 1 && n / 1 == n)
 	{
 		return (1);
 	}
-	return (0);
+	else if (n = 1)
+	{
+		return (0);
+	}
 }
