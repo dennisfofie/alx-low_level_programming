@@ -7,7 +7,7 @@
  *
  * Return: prime number
  */
-int is _prime_number(int n)
+int is_prime_number(int n)
 {
 	if (n / 1 == n && n / n == 1)
 	{
