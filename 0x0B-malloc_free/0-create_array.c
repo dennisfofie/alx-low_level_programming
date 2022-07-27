@@ -10,13 +10,14 @@
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
+
 	char *s;
 
 	if (s == 0)
 	{
 		return (NULL);
 	}
-	s = (char*)(size * sizeof(char));
+	s = (char *)(size * sizeof(char));
 	if (s == NULL)
 	{
 		return (NULL);
