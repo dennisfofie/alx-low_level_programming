@@ -1,3 +1,5 @@
-#ifndef
-#define SIZE (1024)
-#endif
+/**
+ * SIZE - macro with a token
+ */
+
+#define SIZE 1024
