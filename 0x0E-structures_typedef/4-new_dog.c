@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * new_dog ioi- function to copy the new dog info
+ * new_dog - function to copy the new dog info
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
@@ -22,7 +22,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		l2++;
 	ndog = malloc(sizeof(dog_t));
 	if (ndog == NULL)
-		return(NULL);
+		return (NULL);
 	a = malloc((l + 1) * sizeof(char));
 	if (a == NULL)
 	{
