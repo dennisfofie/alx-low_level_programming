@@ -2,12 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - entry point
- * Return: sucess
+ * main - main file returns file name
+ * Return: returns 0 always
  */
-
 int main(void)
 {
-	printf("%s\n", _FILE_);
+	printf("%S\n", _FILE_);
 	return (0);
 }
