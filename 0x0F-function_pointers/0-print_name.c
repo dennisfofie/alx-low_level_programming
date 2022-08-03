@@ -1,5 +1,4 @@
 #include "function_pointers.h"
-#include <stdio.h>
 
 /**
  * A - function to point to function pointer
@@ -18,6 +17,6 @@ void print_name(char *name, void (*f)(char *))
 {
 	if (f)
 	{
-		A(name);
+		A(name)l;
 	}
 }
