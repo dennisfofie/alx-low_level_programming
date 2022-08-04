@@ -18,8 +18,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		p = va_arg(list, char*);
-		
-		if ( p == NULL)
+
+		if (p == NULL)
 		{
 			printf("%s", p);
 		}
@@ -31,5 +31,4 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	}
 	printf("\n");
 	va_end(list);
-	
 }
