@@ -28,7 +28,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 				printf("%d", va_arg(list, unsigned int));
 			}
 		}
-		pprintf("%d", va_arg(list, unsigned int));
+		printf("%d", va_arg(list, unsigned int));
 		va_end(list);
 	}
 	printf("\n");
